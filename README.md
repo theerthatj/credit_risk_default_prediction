@@ -186,7 +186,7 @@ The following machine learning algorithms were trained and compared:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/theerthatj/credit_risk_default_prediction
+git clone https://github.com/theerthatj/credit_risk_default_prediction.git
 cd credit_risk_default_prediction
 ```
 
