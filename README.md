@@ -24,21 +24,22 @@ This project aims to identify high-risk loan applicants using historical credit 
 ```text
 PROJECT2/
 │
-├── data/                    # Raw and processed datasets
-├── notebooks/               # Jupyter notebooks used for analysis and modeling
-├── reports/                 # Project reports and documentation
+├── data/                    
+├── notebooks/               
+├── reports/                 
 │
-├── best_cat.pkl             # Trained CatBoost model
-├── dashboard.py             # Interactive dashboard application
-├── metrics.csv              # Model evaluation metrics
-├── submission.csv           # Test predictions
+├── best_cat.pkl             
+├── dashboard.py             
+├── metrics.csv              
+├── submission.csv           
 │
-├── X_train.pkl              # Training features
-├── X_test.pkl               # Test features
-├── y_train.pkl              # Training labels
-├── y_test.pkl               # Test labels
+├── X_train.pkl              
+├── X_test.pkl               
+├── y_train.pkl              
+├── y_test.pkl               
 │
-├── requirements.txt         # Project dependencies
+├── requirements.txt         
+├──.gitignore
 └── README.md
 ```
 
@@ -185,8 +186,8 @@ The following machine learning algorithms were trained and compared:
 ### Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd PROJECT2
+git clone https://github.com/theerthatj/credit_risk_default_prediction
+cd credit_risk_default_prediction
 ```
 
 ### Create Virtual Environment
